@@ -18,8 +18,12 @@ public class AppController {
         return target - totalKaloriMasuk + totalKaloriKeluar;
     }
 
-    // ⬇️ INI YANG BARU
     public int getTotalMealCalories() {
         return totalKaloriMasuk;
+    }
+
+    // 🔥 TAMBAHAN BARU
+    public int getTotalKaloriKeluar() {
+        return totalKaloriKeluar;
     }
 }
